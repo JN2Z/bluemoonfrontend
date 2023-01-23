@@ -1,0 +1,64 @@
+.booking__details-wrapper{
+    margin-top: 1rem;
+    text-align: start;
+    padding: 0 2rem;
+
+    
+}
+.booking__details{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}   
+h4{
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+hr{
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+table{
+    width: 100%;
+    
+    
+}
+th{
+    text-align: start;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+td{
+    font-weight: 300;
+    font-size: 14px;
+    padding: 0.8rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.action__btn{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: 0 0.3rem;
+    transition: 0.2s ease-in-out;
+}
+.approve{
+    background-color: #76D3FB;
+}
+.decline{
+    background-color: #FF7676;
+}
+.action__btn:hover{
+    opacity: 0.9;   
+}
+.paid{
+    color: #33E6A6;
+    font-size: 2rem;
+}

@@ -1,0 +1,39 @@
+.card__container{
+    margin-top: 1.5rem;
+    width: 100%;
+    height: max-content;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.card{
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.number__description-holder{
+    text-align: start;
+}
+
+/* ================ Media Queries (Medium Devices)==================== */
+@media screen and (max-width:1024px) {
+            .card__container {
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+}
+
+/* ================ Media Queries (Small Devices)==================== */
+@media screen and (max-width:600px) {
+        .card__container {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+                place-items: start;
+                margin-left: 2rem;
+            }
+}

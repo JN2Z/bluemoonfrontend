@@ -1,0 +1,20 @@
+.goto__up{
+    cursor: pointer;
+    z-index: 9999;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    color: white;
+    background-color: #00B2FF;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+}
+.goto__up a i{
+    font-size: 1.3rem;
+}
+.goto__up:hover{
+    background-color: #00a5ec;
+}

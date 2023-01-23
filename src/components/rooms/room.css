@@ -1,0 +1,15 @@
+#room__page{
+    padding: 7rem 2rem;
+    color: white;
+    background-image: url('../../assets/rooms-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.room__cards{
+    height: 100vh;
+    background-color: white;
+}

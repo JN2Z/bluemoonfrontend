@@ -1,0 +1,5 @@
+#room__details{
+    padding-top: 8rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}

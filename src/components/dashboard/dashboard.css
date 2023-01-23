@@ -1,0 +1,21 @@
+.dashboard__container{
+    background-color: #F3F9FF;
+}
+.dashboard__container{
+    display: flex;
+    color: #484848;
+    overflow-y: scroll;
+}
+.dashboard__main-content{
+    flex: 4;
+}
+
+/* ================ Media Queries (Medium Devices)==================== */
+@media screen and (max-width:1024px) {
+
+}
+
+/* ================ Media Queries (Small Devices)==================== */
+@media screen and (max-width:600px) {
+
+}

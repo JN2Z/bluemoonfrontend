@@ -1,0 +1,74 @@
+#around__the-hotel{
+    background-color: white;
+    height: auto;
+    padding: 2rem 2rem;
+    padding-bottom: 3rem;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    background-color: aqua;
+
+}
+.card__item{
+    background-color: #707070;
+    width: 425px;
+    height: 550px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.title__overlay{
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    height: 20%;
+    top: 1rem;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+    padding: 1.5rem;
+}
+.title__overlay:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.title__overlay:hover .activity__title{
+    display: none;
+}
+.title__overlay:hover .activity_content{
+    display: block;
+}
+.activity__title{
+    font-size: 2rem;
+    color: white;
+    border-radius: 10px;
+
+}
+.activity_content{
+    color: white;
+    display: none;
+}
+
+/* ================ Media Queries (Medium Devices)==================== */
+@media screen and (max-width:1024px) {
+    .card{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ================ Media Queries (Small Devices)==================== */
+@media screen and (max-width:600px) {
+    .card {
+            grid-template-columns: 1fr;
+        }
+}

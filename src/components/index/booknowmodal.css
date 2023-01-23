@@ -1,0 +1,13 @@
+.booknow__btn{
+    background-color: #00B2FF;
+    color:#fff;
+    border: none;
+    height:3rem;
+    width: 8rem;
+    font-weight: 700;
+}
+.booknow__btn:hover{
+    background-color: #00a5ec;
+    color: white!important;
+} 
+

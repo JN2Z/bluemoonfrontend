@@ -1,0 +1,90 @@
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    background-image: url(../../assets/footer-bg.png);
+
+}
+.footer__logo-section{
+    width: 400px;
+    text-align: justify;
+    color: white;
+}
+.store__btn-holder{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.footer__logo-section i{
+    font-size: 1.4rem;
+}
+.store__btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 170px;
+    height: 50px;
+    border-radius: 0.8rem;
+    background-color: #00B2FF;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.store__btn:hover{
+    background-color: #00a5ec;
+}
+.footer__company-section,
+.footer__help-section,
+.footer__contact-section{
+    color: white;
+    text-align: start;
+}
+
+.footer__company-section li,
+.footer__help-section li,
+.footer__contact-section li{
+    line-height: 2rem;
+    font-size: 0.8rem;
+
+}
+.footer__company-section li i,
+.footer__help-section li i,
+.footer__contact-section li i {
+    font-size: 1rem;
+
+}
+.footer__company-section li a,
+.footer__help-section li a,
+.footer__contact-section li a {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+
+.footer__company-section li a:hover,
+.footer__help-section li a:hover,
+.footer__contact-section li a:hover{
+    text-decoration: underline;
+}
+hr{
+    width: 100%;
+}
+
+/* ================ Media Queries (Medium Devices)==================== */
+@media screen and (max-width:1024px) {
+    footer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* ================ Media Queries (Small Devices)==================== */
+@media screen and (max-width:600px) {
+    footer{
+        grid-template-columns: 1fr;
+    }
+}

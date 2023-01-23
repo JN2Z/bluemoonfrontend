@@ -1,0 +1,56 @@
+.room__type-container:hover{
+    transform: translateY(-5px);
+}
+.roomtype__img-holder{
+    width: 100%;
+    height: 80%;
+    border-radius: 30px;
+    margin-bottom: 0.5rem;
+}
+.room__title{
+    cursor: pointer;
+    color: var(--header-text-color);
+    transition: 0.2s ease-in-out;
+}
+.room__title:hover{
+    color: #00B2FF;
+}
+.room__features li{
+    display: inline;
+    padding: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #7C7C7C;
+}
+.room__details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.price__holder{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.room__price{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #0CC5A3;
+}
+.per__night{
+    color: #707070;
+}
+.details__btn{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #00B2FF;
+    padding:0.8rem 1.5rem;
+    color: white;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border-radius: 10px;
+}
+.details__btn:hover{
+    background-color: #0aa4e6;
+}

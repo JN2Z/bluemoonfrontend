@@ -1,0 +1,159 @@
+.booking-main {
+  font-family: "Times New Roman", Times, serif;
+  background-image: url("../../assets/bookingbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.forminnerContainer {
+  width: 95%;
+  margin: 20px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  padding: 20px;
+   height: 93%;
+}
+.formmaincontainer {
+  margin: auto;
+  margin-bottom: 50px;
+  width: 700px;
+  height: 580px;
+  background: rgba( 255, 255, 255, 0.5 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 40px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.booking {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bolder;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.check-in {
+  margin: 0px;
+  font-size: 20px;
+}
+.select {
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.FName {
+  width: 300px;
+  height: 35px;
+  border-radius: 10px;
+  border: 2px solid #00b2ff;
+  font-size: 13px;
+  padding-left: 10px;
+}
+.name {
+  font-size: 20px;
+}
+.mode {
+  float: right;
+  font-size: 18px;
+  padding-right: 40px;
+}
+.room {
+  width: 100%;
+  height: 35px;
+  background-color: #00b2ff;
+  color: #fff;
+  border-radius: 10px;
+  padding-left: 20px;
+  outline: none;
+  border: none;
+  margin-top: -20px;
+}
+.Address-on-left {
+  width: 12%;
+  background-color: #00b2ff;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  /* padding-left: 10px;  */
+}
+
+.address-in {
+    width: 150px;
+    font-size: 13px;
+    height: 35px;
+    background-color: #00b2ff;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    border: none;
+} 
+.count {
+  font-size: 20px;
+}
+.person {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+/* .Address{
+    float: left;
+    width: 40%;
+    height: 40px;
+    margin-right: 5px;
+  } */
+
+.submitButton {
+  margin-top: 30px;
+  float: left;
+  color: white;
+  width: 25%;
+  height: 35.5px;
+  font-size: 13px;
+  padding: 2px;
+  border-radius: 20px;
+  background-color: #00b2ff;
+  border: none;
+}
+
+.test {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.test-in{
+    width: 80px;
+    height: 35px;
+    background-color: #00b2ff;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.cincout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.main-cont{
+    display: flex;
+}

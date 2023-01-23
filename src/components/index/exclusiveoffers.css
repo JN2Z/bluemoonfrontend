@@ -1,0 +1,137 @@
+#exclusiveOffers__description {
+    text-align: left;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 75vh;
+    align-items: left;
+    background-image: url(../../assets/E-Offers.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.E_offers__container {
+    position: absolute;
+    width: 537px;
+    height: 293.69px;
+    left: 53.59px;
+    top: 152.07px;
+    background: rgba(52, 26, 26, 0.5);
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 30px;
+    transform: rotate(0.23deg);
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.title {
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 23px;
+    top: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.title__description {
+    position: absolute;
+    width: 416px;
+    height: 80px;
+    left: 23px;
+    top: 75px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 100%;
+    /* or 40px */
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.linevector {
+    position: absolute;
+    width: 0px;
+    height: 98px;
+    left: 251PX;
+    top: 168px;
+    border: 1px solid #CBCBCB;
+}
+
+.left__content {
+    position: absolute;
+    width: 207px;
+    height: 62px;
+    left: 23px;
+    top: 178px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 129%;
+    /* or 31px */
+    color: #FFFFFF;
+}
+
+.right__content {
+    position: absolute;
+    width: 117px;
+    height: 32px;
+    left: 280px;
+    top: 176px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    /* identical to box height, or 32px */
+    color: #FFFFFF;
+}
+
+.right__content h6 {
+    font-size: 16px;
+}
+
+.right__content .price {
+    position: absolute;
+    width: 117px;
+    height: 32px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.bookNow {
+    position: absolute;
+    width: 120px;
+    height: 46px;
+    left: 400px;
+    top: 194px;
+    background: #28B3EF;
+    border-radius: 23px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.btn:hover {
+    background-color: #00a5ec;
+}
